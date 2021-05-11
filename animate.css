@@ -1,0 +1,30 @@
+@keyframes navigacija {
+  0% {
+    opacity: -1;
+  }
+  25% {
+    opacity: 1;
+  }
+  50% {
+    opacity: -1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.navigation li {
+  animation: navigacija 1s forwards 0.1s linear;
+}
+.gogogo {
+  animation: navigacija 1s forwards 0.1s linear;
+}
+.red {
+  animation: navigacija 1s forwards 0.1s linear;
+}
+.blue {
+  animation: navigacija 1s forwards 0.1s linear;
+}
+.white {
+  animation: navigacija 1s forwards 0.1s linear;
+}

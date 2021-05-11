@@ -1,0 +1,67 @@
+.gogogo {
+  font-weight: 500;
+  font-size: 16px;
+  padding: 10px 0;
+  margin: 10px 0;
+  background: linear-gradient(
+    90deg,
+    rgb(221, 12, 57) 0%,
+    rgba(253, 254, 254, 0.14832535885167464) 50%,
+    rgba(15, 251, 249, 1) 100%
+  );
+  text-transform: uppercase;
+  text-align: center;
+  border: solid 1px gray;
+}
+.gogogo h1 {
+  font-size: 30px;
+  vertical-align: middle;
+}
+.gogogo p {
+  font-weight: 300;
+}
+.add {
+  background-color: #3e3c41;
+  padding: 30px;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 1);
+}
+.address {
+  padding: 10px 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+.address li {
+  list-style: none;
+  padding: 0;
+  margin: 5px 10px;
+  display: inline-block;
+}
+.address li a:hover {
+  text-shadow: 0px -2px 0px #cc0f3898, 0px 5px 0px #fdfefe9a,
+    0px 2px 0px #0ffbf9f2;
+  font-weight: 300;
+  cursor: none;
+  display: inline-block;
+}
+.address li a {
+  text-decoration: none;
+  padding: 10px 5px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #3e3c41;
+  font-size: 20px;
+  background-color: whitesmoke;
+  border-radius: 50px;
+  display: inline-block;
+  border: 1px solid #cc0f3898;
+}
+.ps {
+  text-shadow: 0px -2px 0px #cc0f3898, 0px 5px 0px #fdfefe9a,
+    0px 2px 0px #0ffbf9f2;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 100;
+  text-align: center;
+}
