@@ -30,6 +30,9 @@
   margin: 0;
   display: flex;
   justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 .address li {
   list-style: none;
