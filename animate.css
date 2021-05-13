@@ -28,3 +28,15 @@
 .white {
   animation: navigacija 1s forwards 0.1s linear;
 }
+
+@keyframes pozadina {
+  from {
+    background-position: left bottom;
+  }
+  to {
+    background-position: right 0 top 30%;
+  }
+}
+.wash {
+  animation: pozadina 6s ease 0.2s infinite alternate;
+}
