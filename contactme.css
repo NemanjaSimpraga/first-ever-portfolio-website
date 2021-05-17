@@ -46,6 +46,8 @@
   font-weight: 300;
   cursor: none;
   display: inline-block;
+  transform: scale(0.85);
+  background:lightgrey;
 }
 .address li a {
   text-decoration: none;

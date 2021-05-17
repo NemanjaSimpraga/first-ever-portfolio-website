@@ -30,6 +30,7 @@ body {
   font-weight: 300;
   cursor: none;
   display: inline-block;
+  transform: scale(0.85);
 }
 .navigation li a {
   text-decoration: none;
