@@ -54,6 +54,11 @@
   vertical-align: middle;
   border: 1px solid gray;
   margin: 10px 0;
+  cursor: none;
+
+}
+.pic:hover{
+ animation :slika 5s ease-out 0.1s infinite both;
 }
 .description {
   text-align: center;
